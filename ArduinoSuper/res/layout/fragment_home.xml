@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+    
+       <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2" >
+            <ToggleButton
+                android:id="@+id/btn8"	            
+	            android:textOn="Turn LED 8 On"
+        		android:textOff="Turn LED 8 Off"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"  
+                android:textColor="@color/color_dark"
+                android:layout_margin="5dp"
+                android:alpha="0.9"/>
+	        <ToggleButton
+	            android:id="@+id/btn9"
+	            android:textOn="Turn LED 9 On"
+        		android:textOff="Turn LED 9 Off"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+                android:textColor="@color/color_dark"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:alpha="0.9"/>
+        </LinearLayout>
+    
+       <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2" >
+
+            <ToggleButton
+                android:id="@+id/btn10"	            
+	            android:textOn="Turn LED 10 On"
+        		android:textOff="Turn LED 10 Off"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"  
+                android:textColor="@color/color_dark"
+                android:layout_margin="5dp"
+                android:alpha="0.9"/>
+	
+	        <ToggleButton
+	            android:id="@+id/btn11"
+	            android:textOn="Turn LED 11 On"
+        		android:textOff="Turn LED 11 Off"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+                android:textColor="@color/color_dark"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:alpha="0.9"/>	
+        </LinearLayout>
+        
+       <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:orientation="horizontal"
+	        android:weightSum="2" >
+
+            <ToggleButton
+                android:id="@+id/btn12"	            
+	            android:textOn="Turn LED 12 On"
+        		android:textOff="Turn LED 12 Off"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"  
+                android:textColor="@color/color_dark"
+                android:layout_margin="5dp"
+                android:alpha="0.9"/>
+	
+	        <ToggleButton
+	            android:id="@+id/btn13"
+	            android:textOn="Turn LED 13 On"
+        		android:textOff="Turn LED 13 Off"
+	            android:layout_width="match_parent"
+	            android:layout_height="50dp"
+                android:textColor="@color/color_dark"
+	            android:layout_weight="1"
+	            android:layout_margin="5dp"
+	            android:alpha="0.9"/>	
+        </LinearLayout>
+       
+	    <ImageButton
+	        android:id="@+id/btnSpeak"
+	        android:layout_width="fill_parent"
+	        android:layout_height="45dp"
+	        android:layout_margin="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="50dp"
+	        android:background="@color/color_white"
+	        android:contentDescription="Speak Now"
+	        android:src="@android:drawable/ic_btn_speak_now" />
+    
+    
+	    <TextView
+	        android:id="@+id/txtText"
+	        android:text=""
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center"
+	        android:textColor="@color/color_dark"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    
+	    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView 
+	    android:layout_height="match_parent"
+	    android:layout_width="match_parent">
+	   <LinearLayout 
+	      android:layout_height="match_parent"
+	      android:orientation="vertical"
+	      android:layout_width="match_parent">
+	       
+	    <TextView        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20dp"
+	        android:textColor="@color/color_dark"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:layout_gravity="center"
+	        android:textStyle="bold"        
+	        android:text="Voice command setting"/>
+	    
+	    	<LinearLayout
+	    	    android:id="@+id/layout8"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"
+		        android:layout_marginTop="10dp"
+		        android:orientation="horizontal"
+		        android:weightSum="4">
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 8" />>
+	
+		            <EditText
+		                android:id="@+id/editPort8"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	    
+	    	<LinearLayout
+	    	    android:id="@+id/layout9"
+	    	    android:layout_below="@+id/layout8"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"
+		        android:orientation="horizontal"
+		        android:weightSum="4">
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 9" />>
+	
+		            <EditText
+		                android:id="@+id/editPort9"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	        
+	    	<LinearLayout
+	    	    android:id="@+id/layout10"
+	    	    android:layout_below="@+id/layout9"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"	        
+		        android:orientation="horizontal"
+		        android:weightSum="4" >
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 10" />>
+	
+		            <EditText
+		                android:id="@+id/editPort10"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	        <LinearLayout
+	            android:id="@+id/layout11"
+	    	    android:layout_below="@+id/layout10"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"	        
+		        android:orientation="horizontal"
+		        android:weightSum="4">
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 11" />>
+	
+		            <EditText
+		                android:id="@+id/editPort11"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	        <LinearLayout
+	            android:id="@+id/layout12"
+	    	    android:layout_below="@+id/layout11"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"
+		        android:orientation="horizontal"
+		        android:weightSum="4">
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 12" />>
+	
+		            <EditText
+		                android:id="@+id/editPort12"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	        <LinearLayout
+	            android:id="@+id/layout13"
+	    	    android:layout_below="@+id/layout12"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:gravity="center"
+		        android:orientation="horizontal"
+		        android:weightSum="4" >
+	                <TextView        
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:textSize="15dp"
+				        android:textColor="@color/color_dark"
+				        android:layout_alignParentTop="true"
+				        android:layout_centerHorizontal="true"			        
+				        android:layout_weight="1"
+				        android:layout_marginLeft="10dp"
+				        android:gravity="left"
+				        android:text="Port 13" />>
+	
+		            <EditText
+		                android:id="@+id/editPort13"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_alignParentTop="true"
+		                android:layout_centerHorizontal="true"
+		                android:layout_weight="3"
+		                android:gravity="left"	                
+		                android:textColor="@color/color_dark"
+		                android:textSize="15dp" />
+	        </LinearLayout>
+	
+	        <Button
+	            android:id="@+id/buttonSave"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/layout13"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="36dp"
+	            android:textColor="@color/color_dark"
+	            android:text="Save" />
+	     </LinearLayout>
+	</ScrollView>
+</RelativeLayout>

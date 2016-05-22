@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="text_micro">16sp</dimen>
+    <dimen name="text_small">20sp</dimen>
+    <dimen name="text_medium">25sp</dimen>
+    <dimen name="text_large">30sp</dimen>
+    <dimen name="text_xlarge">37sp</dimen>
+    <dimen name="text_xxlarge">43sp</dimen>
+    <dimen name="bar_height">63sp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <color name="color_flat">#0aa2af</color>
+	    <color name="color_light">#2ec8ce</color>
+	    <color name="color_dark">#007d80</color>
+	    <color name="color_white">#bcdcdf</color>
+	    <color name="white">#ffffff</color>
+	<style name="HoloLight" parent="android:Theme.Holo.Light" />
+	<style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
