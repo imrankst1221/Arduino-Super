@@ -1,6 +1,5 @@
-# Arduino_Super
-## Soluation for the Building lights control
-#Arduino based Bluetooth control Android project.
+## Arduino_Super is Soluation for the Building lights control
+#It's an Arduino based Bluetooth control Android project.
 
 Video link :  https://www.youtube.com/watch?v=aNu-wdwgJKo
  
