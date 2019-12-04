@@ -8,6 +8,9 @@
 4. Connecting wire
 5. Different color LED
 
+**************************************************************
+Get arduino uno: https://amzn.to/2DKM5YR
+**************************************************************
 
 Video link :  https://www.youtube.com/watch?v=aNu-wdwgJKo <br>
 <a href="https://www.youtube.com/watch?v=aNu-wdwgJKo">
